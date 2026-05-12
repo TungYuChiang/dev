@@ -1,15 +1,21 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "TungYuChiang-dev",
+  "description": "Development workflow skills: PRD decomposition, TDD loops, task-driven and chat-driven dev pipelines",
+  "owner": {
+    "name": "TungYuChiang"
+  },
   "plugins": [
     {
       "name": "dev",
+      "source": "./",
       "description": "Development workflow skills: PRD decomposition, TDD loops, task-driven and chat-driven dev pipelines.",
-      "source": {
-        "source": "github",
-        "repo": "TungYuChiang/dev",
-        "path": ".",
-        "ref": "main"
+      "version": "1.0.0",
+      "author": {
+        "name": "TungYuChiang"
       },
-      "version": "1.0.0"
+      "repository": "https://github.com/TungYuChiang/dev",
+      "license": "MIT"
     }
   ]
 }
