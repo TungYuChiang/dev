@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    {
+      "name": "dev",
+      "description": "Development workflow skills: PRD decomposition, TDD loops, task-driven and chat-driven dev pipelines.",
+      "source": {
+        "source": "github",
+        "repo": "TungYuChiang/dev",
+        "path": ".",
+        "ref": "main"
+      },
+      "version": "1.0.0"
+    }
+  ]
+}
